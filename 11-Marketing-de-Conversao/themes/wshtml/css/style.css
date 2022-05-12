@@ -1,0 +1,76 @@
+/*LOGO*/
+.main_logo{position: relative; width: 242px; height: 60px;}
+.main_logo a{position: absolute; width: 210px; height: 60px; background: url(../img/logo-ws-html5.png) center center no-repeat; background-size: auto 76%;}
+.main_logo a:hover{background-color: #222;}
+
+a{color: #CF4823;}
+a:hover{text-decoration: underline;}
+
+/*MENU PRINCIPAL*/
+.main_nav{width: auto; margin-top: 10px;}
+.main_nav li{float: left; position: relative;}
+.main_nav a{float: left; padding: 12px 16px; color: #eee; font-weight: normal;}
+.main_nav a:hover{color: #fff; text-decoration: underline;}
+.main_nav li:hover .sub{display: block;}
+.main_nav li:hover > a{text-decoration: underline;}
+.main_nav .sub{position: absolute; display: none; background: #fff; top: 42px; left: 0; margin-left: -50%; width: 220px; padding: 5px;}
+.main_nav .sub li, .main_nav .sub a{text-align: center; float: left; width: 100%;}
+.main_nav .sub a{color: #CF4823;}
+
+/*LANDING*/
+.squeeze{float: left; text-transform: capitalize; width: 100%; background: url(../img/bg-landing.jpg) center right no-repeat; background-size: 100% auto;}
+.squeeze-info h1{font-size: 2.4em; margin-bottom: 15px;}
+.squeeze-info .tagline{font-size: 1.4em;}
+.squeeze ul{float: left; width: 100%; margin: 15px 0 25px 0;}
+.squeeze li{float: left; width: 100%; font-size: 1.2em; margin-bottom: 15px; padding-left: 30px; background: url(../img/checkmark.png) left center no-repeat; background-size: auto 80%;}
+.squeeze p{font-size: 1.3em; margin-bottom: 30px;}
+.squeeze-form header{text-align: center; padding-bottom: 40px; background: url(../img/call.png) center bottom no-repeat; background-size: 80%}
+.squeeze-form h1{font-size: 2em; text-transform: uppercase;}
+.squeeze-form p{font-size: 1em;}
+.squeeze-form form{padding: 30px; margin: 10px 0 20px 0; background: rgba(255,255,255,0.9) url(../img/mail.png) center top 20px no-repeat; background-size: auto 25%; padding-top: 30%;}
+
+/*Tutorial Opt-in*/
+.opt-tuto{float: left; width: 100%; margin: 30px 0; text-transform: capitalize;}
+.opt-tuto li{float: left; width: 30%; margin-right: 4%; padding: 20px; background: #fbfbfb;}
+.opt-tuto span{display: block; font-size: 5em; text-align: center; margin-bottom: 20px;}
+
+/*VÍDEO PRINCIPAL*/
+.main_video{margin-bottom: 24px; padding-bottom: 24px; background: url(../img/video_shadow.png) bottom center no-repeat;}
+
+/*vídeos de navegação*/
+.main_videos h1{margin-bottom: 30px;}
+.main_videos .box{margin-bottom: 30px;}
+.main_videos .box_video_title{font-size: 1em; font-weight: normal; margin: 0;}
+.main_videos .thumb{position: relative; margin-bottom: 10px;}
+.main_videos .video_play{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.2) url(../img/play_video.png) left 10px bottom 10px no-repeat; background-size: auto 50%; cursor: pointer;}
+.main_videos .video_play:hover{background-color: rgba(207,72,35,0.5);}
+
+
+/*FICHA TÉCNICA*/
+.main_info{padding: 25px; background: #eee; text-align: center;}
+.main_info h1{font-size: 1em;}
+.main_info b{display: block; font-size: 4em;}
+
+/*DOBRA DE CONVERSÃO*/
+.main_chamada{float: left; width: 80%; margin: 40px 10% 0 10%; font-size: 1.5em; font-weight: 300;}
+
+/*DEPOIMENTOS*/
+.depoimment{float: left; width: 100%; margin-bottom: 30px; padding: 30px; background: #fff;}
+.depoimment header{float: left; width: 100%; margin-bottom: 20px;}
+.depoimment header img{float: left; width: 10%; margin-right: 30px;}
+.depoimment header h1{font-size: 2em;}
+.depoimment header .tagline{font-size: 2em; font-weight: 300; color: #009900;}
+.depoimment .nota{font-size: 2.4em; font-weight: 300;}
+.depoimment .title{font-size: 1.6em; color: #888;}
+.depoimment .depo{margin-bottom: 20px; font-size: 1.1em;}
+.depoimment .nota .num{color: #009900;}
+
+/*INFO EAD*/
+.inforead header{border-bottom: 1px dotted #ccc; padding-bottom: 20px;}
+.inforead article{font-size: 0.9em; padding-top: 70px; text-align: center;}
+.inforead article h1{margin-bottom: 10px; font-size: 1.3em;}
+.inforead article.play{background: url(../img/ead_play.png) center top no-repeat;}
+.inforead article.ticket{background: url(../img/ead_ticket.png) center top no-repeat;}
+.inforead article.bus{background: url(../img/ead_bus.png) center top no-repeat;}
+.inforead article.back{background: url(../img/ead_back.png) center top no-repeat;}
+.inforead footer{float: left; width: 100%; text-align: center; margin-top: 40px; text-transform: uppercase;}
